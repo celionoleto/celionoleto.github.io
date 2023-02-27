@@ -3,6 +3,7 @@
   <head>
     <title>Meu Portfólio</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -10,13 +11,13 @@
   <body>
     <!-- navbar -->
     <header id="navbar">
-      <img src="imagens/shuriken.png" alt="Estrela Ninja">
+      <img src="imagens/notebook2.png" alt="Estrela Ninja">
       <h2>Célio Nolêto</h2>
       <nav>
         <ul id="navbar-list">
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#atuacao">Atuação</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -25,6 +26,7 @@
       <!-- banner início -->
       <div id="main-banner">
         <div id="banner-info">
+          <a name="sobre">
           <h1>Olá, eu sou Célio Nolêto</h1>
           <img src="imagens/eu.JPG" alt="Perfil Ninja">
           <p>O CélioByte</p>
@@ -39,10 +41,11 @@
       <!-- about fim -->
     </main>
     <!-- skills inicio -->
+    <a name="atuacao">
     <section id="skills-section">
       <div class="container">
         <div class="skills-container">
-          <img src="imagens/weapon1.png" alt="Weapons">
+          <img src="imagens/notebook.png" alt="notebook">
           <h3>Desenvolvimento</h3>
           <p>Trabalho com desenvolvimento de projetos web</p>
           <p class="subtitle">Linguagens que utilizo:</p>
@@ -50,13 +53,15 @@
                     
         </div>
         <div class="skills-container central">
-          <img src="imagens/weapon2.png" alt="Weapons">
+          <img src="imagens/ferramentas.png" alt="ferramentas">
           <h3>Suporte técnico</h3>
-          <p>Também trabalho com suporte técnico de Hardware. Faço manutenções em computares e notebooks.</p>
+          <p>Trabalho com suporte técnico de Hardware. Faço manutenções em computares e notebooks</p>
+          <p>Formatação e instalação de softwares.</p>
+          <p> Instalação de servidores.</p>
           
         </div>
         <div class="skills-container">
-          <img src="imagens/weapon3.png" alt="Weapons">
+          <img src="imagens/cabo.png" alt="redes">
           <h3>Infraestrutura</h3>
           <p>Realizo intalações e manutenções de redes Wi-fi e redes de cabeamento estruturado.</p>
           <p class="subtitle">Instalação de nuvens de arquivos:</p>
@@ -83,18 +88,38 @@
     </section>
     <!-- jobs fim -->
     <!-- footer inicio -->
+    
     <footer>
+      <a name="contato">
       <h2>Me mande uma mensagem</h2>
       <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar sobre tecnologia...</p>
       <img src="imagens/ninja.png" alt="Perfil Ninja">
-      <form action="" method="">
-        <input type="text" name="name" placeholder="Seu nome">
-        <input type="email" name="email" placeholder="Seu e-mail">
-        <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+      <form action="https://formsubmit.co/celiobyte@hotmail.com" method="post" class="form">
+        <input type="text" name="name" required placeholder="Seu nome">
+        <input type="email" name="email" required placeholder="Seu e-mail">
+        <textarea name="message" placeholder="Digite uma mensagem" required></textarea>
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/site/obrigado.html"/>
+        <button type="submit">Enviar</button>
+      </form>
+      <p>Desenvolvido por <span class="detail">Célio Nolêto {Célio Byte}</span></p>
+    </footer>
+
+<!--
+    <footer>
+      <a name="contato">
+      <h2>Me mande uma mensagem</h2>
+      <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar sobre tecnologia...</p>
+      <img src="imagens/ninja.png" alt="Perfil Ninja">
+      <form action="mailto:celiobyte@hotmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" required placeholder="Seu nome">
+        <input type="email" name="email" required placeholder="Seu e-mail">
+        <textarea name="msg" placeholder="Digite uma mensagem" required></textarea>
         <input type="submit" value="Enviar">
       </form>
       <p>Desenvolvido por <span class="detail">Célio Nolêto {Célio Byte}</span></p>
     </footer>
+    -->
     <!-- footer fim -->
   </body>
 </html>

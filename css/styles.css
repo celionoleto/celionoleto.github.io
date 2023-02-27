@@ -23,12 +23,12 @@ h2 {
 #navbar h2 {
   margin: 0;
   line-height: 60px;
-  margin-left: 55px;
+  margin-left: 70px;
 }
 
 #navbar img {
   height: 40px;
-  transform: rotate(45deg);
+  /*transform: rotate(45deg);*/
   position: absolute;
   top: 10px;
 }
@@ -144,8 +144,8 @@ h2 {
 }
 
 .skills-container img {
-  height: 60px;
-  padding: 15px;
+  height: 90px;
+  padding: 10px;
   margin-bottom: 25px;
   border-top: 1px solid #ED1E24;
   border-left: 1px solid #ED1E24;
