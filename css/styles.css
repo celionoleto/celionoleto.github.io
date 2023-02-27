@@ -206,15 +206,27 @@ h2 {
 }
 
 .proj1 {
-  background-image: url('../imagens/proj1.jpg');
+  background-image: url('../imagens/xray1.PNG');
 }
 
 .proj2 {
-  background-image: url('../imagens/proj2.jpg');
+  background-image: url('../imagens/xray2.JPG');
 }
 
 .proj3 {
-  background-image: url('../imagens/proj3.jpg');
+  background-image: url('../imagens/netac1.JPG');
+}
+
+.proj4 {
+  background-image: url('../imagens/netac2.JPG');
+}
+
+.proj5 {
+  background-image: url('../imagens/placa1.jpg');
+}
+
+.proj6 {
+  background-image: url('../imagens/placa2.png');
 }
 
 /* footer */
@@ -227,7 +239,7 @@ footer {
 }
 
 footer img {
-  height: 60px; 
+  height: 50px; 
   margin-top: 30px;
   margin-right: 10px;    
   margin-bottom: 30px;
@@ -341,7 +353,7 @@ footer .detail {
   /* Jobs */
 
   #jobs-section h2, #jobs-section p {
-      width: 85%;
+      width: 95%;
       margin-left: auto;
       margin-left: auto;
   }
@@ -369,6 +381,42 @@ footer .detail {
       margin-top: 10px;
       display: block;
   }
+
+  @media(max-width: 750px) {
+
+    /* skills */
+
+   #skills-section {
+       margin-top: -35px;
+       width: 90%;
+   }
+
+   #skills-section .container {
+       flex-direction: column;
+   }
+
+   .skills-container h3, .skills-container .subtitle {
+       font-size: 1.3rem;
+   }
+
+   .skills-container {
+       padding: 25px;
+   }
+
+   .skills-container.central {
+       border-top: 1px solid #ccc;
+       border-bottom: 1px solid #ccc;
+   }
+
+   .job-box {
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 200px;
+    background-size: cover;
+    border-right: 2px solid #ED1E24;
+    border-bottom: 2px solid #ED1E24;
+}
 
 
 
