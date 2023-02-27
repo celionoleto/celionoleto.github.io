@@ -238,6 +238,12 @@ footer {
   text-align: center;
 }
 
+footer a:hover {
+  color: #fff;
+  text-decoration:#CCC;
+  border-bottom: 1px solid #FFF;
+}
+
 footer img {
   height: 50px; 
   margin-top: 30px;
@@ -268,6 +274,8 @@ footer input, button, footer textarea {
 footer .detail {
   font-weight: bold;
 }
+
+
 
 
 @media(max-width: 450px) {
