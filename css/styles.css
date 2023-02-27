@@ -241,7 +241,7 @@ footer {
 footer a:hover {
   color: #fff;
   text-decoration:#CCC;
-  border-bottom: 1px solid #FFF;
+  /*border-bottom: 1px solid #FFF;*/
 }
 
 footer img {
