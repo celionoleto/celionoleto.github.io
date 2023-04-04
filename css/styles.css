@@ -275,10 +275,85 @@ footer .detail {
   font-weight: bold;
 }
 
+@media(max-width: 1024px) {
+  
+  #skills-section {
+    margin-top: -100px;
+    width: 90%;
+  }
+
+  #skills-section .container h3 {
+    font-size: 30px;
+  }
+
+}
+
+@media(max-width: 896px) {
+ 
+  #main-banner {
+    height: 100vh;
+    padding-top: 5vh;
+  }
+
+  @media(max-width: 820px) {
+ 
+    #main-banner {
+      height: 42vh;
+      padding-top: 14vh;
+    }
+
+  #banner-info {
+    padding: 20px;
+  }
+}
+
+@media(max-width: 768px) {
+  #skills-section .container {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 750px) {
+
+  /* skills */
+
+ #skills-section {
+     margin-top: -100px;
+     width: 90%;
+ }
+
+ #skills-section .container {
+     flex-direction: column;
+ }
+
+ .skills-container h3, .skills-container .subtitle {
+     font-size: 1.3rem;
+ }
+
+ .skills-container {
+     padding: 25px;
+ }
+
+ .skills-container.central {
+     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+ }
+
+ .job-box {
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 200px;
+  background-size: cover;
+  border-right: 2px solid #ED1E24;
+  border-bottom: 2px solid #ED1E24;
+}
 
 
+}
 
-@media(max-width: 450px) {
+
+@media(max-width: 527px) {
   /* html - 18px -> 1.2rem -> 18px*/
   
   /* geral */
@@ -299,8 +374,7 @@ footer .detail {
   }
 
   #navbar img {
-      left: 1ch;
-      top: 6px;
+    top: 10px;
   }
 
   #navbar ul {
@@ -389,43 +463,5 @@ footer .detail {
       margin-top: 10px;
       display: block;
   }
-
-  @media(max-width: 750px) {
-
-    /* skills */
-
-   #skills-section {
-       margin-top: -35px;
-       width: 90%;
-   }
-
-   #skills-section .container {
-       flex-direction: column;
-   }
-
-   .skills-container h3, .skills-container .subtitle {
-       font-size: 1.3rem;
-   }
-
-   .skills-container {
-       padding: 25px;
-   }
-
-   .skills-container.central {
-       border-top: 1px solid #ccc;
-       border-bottom: 1px solid #ccc;
-   }
-
-   .job-box {
-    
-    margin-left: 25px;
-    margin-right: 25px;
-    height: 200px;
-    background-size: cover;
-    border-right: 2px solid #ED1E24;
-    border-bottom: 2px solid #ED1E24;
 }
 
-
-
-}
