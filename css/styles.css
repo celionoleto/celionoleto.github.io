@@ -315,8 +315,8 @@ footer .detail {
 @media(max-width: 820px) {
  
   #main-banner {
-    height: 42vh;
-    padding-top: 14vh;
+    height: 70vh;
+    padding-top: 18vh;
   }
 
   #banner-info {
