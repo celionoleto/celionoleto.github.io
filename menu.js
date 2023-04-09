@@ -15,9 +15,11 @@ menuToggle.addEventListener("click", () => {
 listClick.addEventListener("click", () => {
     
 
-    menuSection.classList.toggle("on")
+    menuSection.classList.toggle("on", show)
+    
     document.body.style.overflow = show ? "hidden" : "initial"
-    window.location.reload(true);
+    show = !show;
+    window.location.reload();
    
 }
 
