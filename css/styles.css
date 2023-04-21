@@ -167,12 +167,15 @@ header nav ul li a:hover {
   line-height: 25px
 }
 
-/* jobs */
+/*END SKILLS*/
+
+/*INICIO JOBS*/
 
 #jobs-section {
   
   text-align: center;
   padding-top: 50px;
+  margin-bottom: 1.5rem;
 }
 
 #jobs-section h2 {
@@ -186,11 +189,6 @@ header nav ul li a:hover {
   margin-right: 1rem;
 }
 
-#jobs-section a {
-  font-weight: bold;
-  color: #ED1E24;
-}
-
 
 .grid {
   display: inline;
@@ -201,55 +199,10 @@ header nav ul li a:hover {
   height: auto;
   width: 22rem;
   
-}
+} 
 
 
-.grid:target {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.grid .close {
-  position: relative;
-  display: block;
-}
-
-.grid .close::after {
-  right: -1rem;
-  top: -1rem;
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  border-radius: 50%;
-  color: white;
-  content: "×";
-  cursor: pointer;
-}
-
-.grid .close::before {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: rgba(0,0,0,.7);
-  content: "";
-  cursor: default;
-}
-
-#proj1, #proj2, #proj3, #proj4, #proj5, #proj6 {
+#proj1, #proj2, #proj3, #proj4, #proj5, #proj6, #proj7, #proj8 {
   background-size: cover;
   border-right: 3px solid #ED1E24;
   border-bottom: 3px solid #ED1E24;
@@ -285,6 +238,16 @@ header nav ul li a:hover {
 }
 
 #proj6:hover {
+  transform: scale(1.2); 
+  transition: transform 0.5s;
+} 
+
+#proj7:hover {
+  transform: scale(1.2); 
+  transition: transform 0.5s;
+} 
+
+#proj8:hover {
   transform: scale(1.2); 
   transition: transform 0.5s;
 } 
@@ -683,7 +646,17 @@ nav {
     transition: transform 0.5s;
   } 
 
-  #proj1, #proj2, #proj3, #proj4, #proj5, #proj6 {
+  #proj7:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s;
+  }
+
+  #proj8:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s;
+  }
+
+  #proj1, #proj2, #proj3, #proj4, #proj5, #proj6, #proj7, #proj8 {
     background-size: cover;
     border-right: 3px solid #ED1E24;
     border-bottom: 3px solid #ED1E24;

@@ -11,14 +11,14 @@
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:url" content="https://celionoleto.github.io/" />
     <meta property="og:site_name" content="Célio Nolêto" />
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="icon" type="image/x-icon" href="imagens/logotipo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    
 
   </head>
   <body>
@@ -95,21 +95,38 @@
       </div>
     </section>
     <!-- skills fim -->
-
     <!-- jobs inicio -->
+    
     <section id="jobs-section" class="listaimagens">
       <h2 class="h2-container">Melhore seu computador com nossos SSDs</h2>
       <p>Seu computador ficará até 10 vezes mais veloz. Veja abaixo alguns itens disponíveis em estoque</p>
-          
-        <img id="proj1" class="grid" src="imagens/xray1.PNG">
-        <img id="proj2" class="grid" src="imagens/xray2.JPG">
-        <img id="proj3" class="grid" src="imagens/netac1.JPG">           
-        <img id="proj4" class="grid" src="imagens/netac2.png">
-        <img id="proj5" class="grid" src="imagens/placa1.png">
-        <img id="proj6" class="grid" src="imagens/placa2.png">
+          <div class="gallery">
+          <a class="proj1" href="imagens/xray1.PNG" data-lightbox="example-set" data-title="SSD Sata XrayDisk">
+            <img class="grid" img id="proj1" src="imagens/xray1.PNG" alt=""/></a>
+          <a class="proj2" href="imagens/xray2.JPG" data-lightbox="example-set" data-title="SSD Sata XrayDisk">
+            <img class="grid" img id="proj2" src="imagens/xray2.JPG" alt=""/></a>  
+          <a class="proj3" href="imagens/netac1.JPG" data-lightbox="example-set" data-title="SSD Sata Netac">
+            <img class="grid" img id="proj3" src="imagens/netac1.JPG" alt=""/></a>  
+          <a class="proj4" href="imagens/netac2.png" data-lightbox="example-set" data-title="SSD M2 Netac">
+            <img class="grid" img id="proj4" src="imagens/netac2.png" alt=""/></a>  
+          <a class="proj5" href="imagens/placa1.png" data-lightbox="example-set" data-title="Mini placa de captura USB">
+            <img class="grid" img id="proj5" src="imagens/placa1.png" alt=""/></a>  
+          <a class="proj6" href="imagens/placa2.png" data-lightbox="example-set" data-title="Placa de captura USB 4K">
+            <img class="grid" img id="proj6" src="imagens/placa2.png" alt=""/></a>
+          <a class="proj7" href="imagens/caddy.png" data-lightbox="example-set" data-title="Adaptador Caddy">
+            <img class="grid" img id="proj7" src="imagens/caddy.png" alt=""/></a>    
+          <a class="proj8" href="imagens/irig.png" data-lightbox="example-set" data-title="Interface de áudio Irig">
+            <img class="grid" img id="proj8" src="imagens/irig.png" alt=""/></a>        
       
+                       
+
+        </div> 
+
+
+                             
     </section>
     <!-- jobs fim -->
+
     
     <!-- footer inicio -->
     
@@ -140,8 +157,11 @@
       
     </footer>
 
+    <script src="lightbox-plus-jquery.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
     <script src="menu.js"></script>
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+
+    
   </body>
 </html>
