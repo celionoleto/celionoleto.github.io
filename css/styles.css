@@ -6,6 +6,7 @@
   outline: 0;
 }
 
+
 body, p, h1, h2, input, textarea {
   margin: 0;
   font-family: Roboto;
@@ -59,7 +60,7 @@ header nav ul li a:hover {
 
 /* banner */
 #main-banner {
-  height: 70vh;
+  height: 100vh;
   background-image: url('../imagens/the1.jpg');
   background-size: cover;
   padding-top: 22vh;
@@ -298,6 +299,8 @@ footer input, button, footer textarea {
   width: 100%;
   display: block;
 }
+
+
 
 footer .detail {
   font-weight: bold;
